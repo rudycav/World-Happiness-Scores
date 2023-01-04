@@ -1,4 +1,3 @@
-# import philliesAttendance
 hdf<-happiness
 data.class(hdf)
 pdf<-as.data.frame(hdf)
@@ -9,9 +8,6 @@ dim(hdf)
 names(hdf)
 
 osdf<-hdf[157,]
-#hdf$obs<-1:nrow(pdf)
-# pdf$WinPctL1<-cv.lag(pdf$WinPct,1)  # create lagged variable WinPct1
-# pdf$uRateL1 <-cv.lag(pdf$uRate,1)   # create Lagged variable URate1
 
 
 par(mfcol=c(3,3))  # histograms
@@ -26,7 +22,6 @@ hist(hdf$Freedom.to.make.life.choices)
 
 par(mfcol=c(2,2))  # scatterplot w/ smooth line overlay
 # scatter.smooth shows nonlinearities, if they exist
-# ASSIGNMENT - add titles and labels
 scatter.smooth(hdf$obs,hdf$Score)
 scatter.smooth(hdf$GDP.per.capita,hdf$Score)
 scatter.smooth(hdf$Healthy.life.expectancy,hdf$Score)
@@ -86,8 +81,3 @@ names(fit)    # display names of fit object
 fit$coefficients # display coefficients in equation
 fit$fitted.values # display fitted (predicted) values 
 fit$residuals     # display residuals (errors)
-####
-## Gam - General Additive Models
-## load package "gam"
-#fit<-gam(PhilliesAtt~s(obs)+s(WinPct)+s(uRate)+s(unRate),data=isdf,na.action=na.omit)
-#   plot.gam(fit)
