@@ -12,7 +12,7 @@
   ![](world_happiness/ss/desc.JPG)
   
   ## Correlation matrix
-  ![](world_happiness/ss/cor.JPG)
+  ![](world_happiness/ss/corr.JPG)
   
   ## Regression results
   ![](world_happiness/ss/reg.JPG)
