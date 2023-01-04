@@ -8,20 +8,11 @@
   ## Functional specification
   ![](world_happiness/ss/func.JPG)
   
-  ## Bar chart
-  ![](world_happiness/ss/bar.JPG)
-  
-  ## Histogram chart
-  ![](world_happiness/ss/hist.JPG)
-
-  ## Scatterplot chart
-  ![](world_happiness/ss/scatter.JPG)
-  
   ## Descriptive statistics
   ![](world_happiness/ss/desc.JPG)
   
   ## Correlation matrix
-  ![](world_happiness/cor/cor.JPG)
+  ![](world_happiness/ss/cor.JPG)
   
   ## Regression results
   ![](world_happiness/ss/reg.JPG)
